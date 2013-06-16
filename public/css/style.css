@@ -656,6 +656,6 @@ section#main.config{
     font-size: 1.5em;
 }
 
-.code .success {
+.code .success, .code .command h4.success {
     color: #77EE34;
 }
