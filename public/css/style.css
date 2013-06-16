@@ -620,6 +620,11 @@ section#main.config{
         }
         
 /*consol*/
+
+.console-container {
+    height: 400px;
+}
+
 .code {
     background-color: #222;
     color: #ccc;

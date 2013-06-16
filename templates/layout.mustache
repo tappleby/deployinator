@@ -92,7 +92,7 @@ _  __  / _  _ \___  __ \__  / _  __ \__  / / /__  / __  __ \_  __ `/_  __/_  __ 
                     };
     
                     var rnd_id = "r_" + (Math.random() + "").replace('.', '');
-                    frame = $("<iframe>").attr("name", rnd_id).css({"width": "100%", "background": "black", "marginBottom": "10px"});
+                    frame = $("<iframe>").attr("name", rnd_id).css({"width": "100%", "background": "black", "marginBottom": "10px"}).addClass('console-container');
                     $("#main").prepend(frame);
                     form.target = rnd_id;
     
